@@ -3,6 +3,7 @@ def fibonacci(second_last, last):
     next_num = second_last + last
     return next_num
 
+
 def call_fib():
     even_fib_numbers = [2]
     second_last = 1
@@ -15,9 +16,9 @@ def call_fib():
         second_last = last
         last = fib_number
     total = sum(even_fib_numbers)
-    print(even_fib_numbers)
-    print(fib_number)
+    print("even fibonacci numbers: {0}".format(even_fib_numbers))
     print("total: {0}".format(total))
+
 
 if __name__ == '__main__':
     call_fib()
