@@ -8,14 +8,14 @@
 ## General info
 Script will read in a file, whose name can be passed via the command line. File should contain acronyms which:
 * Acronym and meaning are dash seperated
-** Example: BEG - Big Evil Grin
+ * Example: BEG - Big Evil Grin
 * One acronym per line
 
 ### Functionality
-- A random acronym from the read in file will be printed to the console
-- On a key being hit the meaning of the acronym will be printed
-- On a key being hit again, a new acronym will be displayed
-- The above steps will be repeated until the running program is cancelled (Ctrl C)
+1. A random acronym from the read in file will be printed to the console
+2. On a key being hit the meaning of the acronym will be printed
+3. On a key being hit again, a new acronym will be displayed
+4. The above steps will be repeated until the running program is cancelled (Ctrl C)
 
 ## Tech
 Project was written in:
