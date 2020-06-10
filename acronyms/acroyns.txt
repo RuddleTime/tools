@@ -1,0 +1,100 @@
+ACL - Access Control List
+ACLS - Access Control Lists
+ACM - AWS Certificate Manager
+ACU - Aurora Compute Unit
+AMI - Amazon Machine Image
+AOF - Append Only File
+ARN - Amazon Resource Name
+AZ - Availability Zone
+CDN - Content Delivery Network
+CIDR - Classless Inter-Domain Routing
+CMK - Customer Master Key
+CORS - Cross-origin Resource Sharing
+CRON - Command Run On
+CUP - Cognito User Pools
+DAX - DynamoDB Accelerator
+DMS - Database Migration Service
+DNS - Domain Name System
+EBS - Elastic Block Store
+EC2 - Elastic Compute Cloud
+ECR - Elastic Container Registry
+ECS - Elastic Container Service
+EDA - Electronic Design Automation
+EFS - Elastic File System
+ELK - Elasticsearch, Logstash, and Kibana
+EMR - Elastic MapReduce
+ENI - Elastic Network Interface
+FIFO - First In First Out
+HDD - Hard Disk Drive
+HSM - Hardware Security Module
+HVM - Hardware Virtual Machine
+IA - Infrequently Accessed
+IaaS - Infrastructure as a Service
+IAM - Identity Access Management
+IANA - Internet Assigned Numbers Authority 
+IdP - ID Provider
+IGW - Internet Gateways
+IOPS - Input Output Per Second
+IOS - International Organization for Standardization
+iSCSI - internet Small Computer Systems Interface
+JWT - JSON Web Token
+KMS - Key Management Service
+LCU - Load Balancer Capacity Unit
+MFA - Multi Factor Authentication 
+MPP - Massive Parallel Processing
+MX Record - Mail Exchanger Record
+NAT - Network Address Translation
+NFS - Network File System
+NLP - Natural Language Processing
+NS - Name Server Record
+OLTP - Online Transaction Processing
+OLAP - Online Analytics Processing
+OU - Organisational Unit
+PaaS - Platform as a Service
+PCI DSS - Payment Card Industry Data Security Standard
+PII - Personally Identifiable Information
+PTR Record - Pointer Record
+PV - Paravirtual
+RAID - Redundant Array of Independent Disks
+RCU - Read Capacity Units
+RDBMS - Relational Database Management System
+RDS - Relational Database Services
+RIR - Regional Internet Registry 
+ROA - Route Origin Authorization
+RPO - Recovery Point Objective
+RRS - Reduced Redundancy Service
+RTC - Replication Time Control
+RTMP - Real Time Messaging Protocol
+RTO - Recovery Time Objective
+S3 - SSS Simple Storage Services
+S3 IA - Infrequently Accessed 
+SaaS - Software as a Service
+SAM - Serverless Application Model
+SCP - Service Control Policies
+SDK - Software Development Kit
+SEO - Search Engine Optimisation
+SES - Simple Email Service
+SID - Statement ID
+SMB - Server Message Block
+SAML - Security Assertion Markup Language 
+SNI - Server Name Indication
+SNS - Simple Notification Service
+SOA - Start of Authority Record
+SQS - Simple Queue Service
+SSE - Server Side Encryption
+SSD - Solid State Drive
+SSL - Secure Sockets Layer
+STS - Security Token Service
+SWF - Simple Workflow Service
+TDE - Transparent Data Encryption
+TLS - Transport Layer Security
+TPM - Trusted Platform Module
+TTL - Time To Live
+VDI - Virtual Desktop Infrastructure
+VPC - Virtual Private Cloud
+VPN - Virtual Private Network
+VTL - Virtual Tape Library
+WAF - Web Application Firewall
+WCU - Write Capacity Units
+WORM - Write Once Read Many
+XSS - Cross Site Scripting
