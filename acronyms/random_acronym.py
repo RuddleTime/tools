@@ -1,13 +1,17 @@
 import random
 
 
-def random_acronym(): 
+def input_file():
+    """File acronyms to be read from"""
+    acronyms = open('acronyms.txt').read().splitlines()
+    return acronyms
+
+
+def random_acronym(acronyms): 
     """
     Outputs random acronym read in from txt file.
     On user keyboard input, meaning of acronym is printed.
     """
-    acronyms = open('acronyms.txt').read().splitlines()
-
     while True:
         acronym = random.choice(acronyms)
         acronym_and_meaning = acronym.split(" - ")
@@ -18,4 +22,5 @@ def random_acronym():
 
 
 if __name__=='__main__':
-    random_acronym() 
+    acronyms = input_file()
+    random_acronym(acronyms) 
