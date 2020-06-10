@@ -1,9 +1,10 @@
 import random
+import argparse
 
 
-def input_file():
+def input_file(file_name):
     """File acronyms to be read from"""
-    acronyms = open('acronyms.txt').read().splitlines()
+    acronyms = open(file_name).read().splitlines()
     return acronyms
 
 
@@ -21,6 +22,18 @@ def random_acronym(acronyms):
         input("")
 
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-f", "--file_name",
+        type=str, help="File of acronyms to be read in."
+    )
+    args = parser.parse_args()
+    return args
+
+
 if __name__=='__main__':
-    acronyms = input_file()
+    args = parse_args()
+    file_name = args.file_name
+    acronyms = input_file(file_name)
     random_acronym(acronyms) 
