@@ -8,7 +8,7 @@
 ## General info
 Script will read in a file, whose name can be passed via the command line. File should contain acronyms which:
 * Acronym and meaning are dash seperated
- * Example: BEG - Big Evil Grin
+    * Example: BEG - Big Evil Grin
 * One acronym per line
 
 ### Functionality
