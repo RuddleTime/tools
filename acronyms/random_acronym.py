@@ -4,9 +4,8 @@ import argparse
 
 def input_file(file_name):
     """File acronyms to be read from"""
-    fo = open(file_name)
-    acronyms = fo.read().splitlines()
-    fo.close()
+    with open(file_name) as fo:
+        acronyms = fo.read().splitlines()
     return acronyms
 
 
