@@ -9,18 +9,27 @@ def input_file(file_name):
     return acronyms
 
 
+def check_input():
+    """ Checking for exit command from user"""
+    user_input = input("")
+    if user_input == 'c':
+        return False
+    return True
+
+
 def random_acronym(acronyms): 
     """
     Outputs random acronym read in from txt file.
     On user keyboard input, meaning of acronym is printed.
     """
-    while True:
+    user_input = True
+    while user_input:
         acronym = random.choice(acronyms)
         acronym_and_meaning = acronym.split(" - ")
         print(acronym_and_meaning[0], end = '')
         input("")
         print(acronym)
-        input("")
+        user_input = check_input()
 
 
 def parse_args():
