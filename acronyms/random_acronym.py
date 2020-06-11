@@ -1,11 +1,16 @@
+import sys
 import random
 import argparse
 
 
 def input_file(file_name):
     """File acronyms to be read from"""
-    with open(file_name) as fo:
-        acronyms = fo.read().splitlines()
+    try:
+        with open(file_name) as fo:
+            acronyms = fo.read().splitlines()
+    except(FileNotFoundError) as err:
+        print("File: \"{0}\" not found.\nExiting with error: \n{1}\n".format(file_name, err))
+        sys.exit()
     return acronyms
 
 
