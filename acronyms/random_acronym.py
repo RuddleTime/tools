@@ -9,7 +9,11 @@ def input_file(file_name):
         with open(file_name) as fo:
             acronyms = fo.read().splitlines()
     except(FileNotFoundError) as err:
-        print("File: \"{0}\" not found.\nExiting with error: \n{1}\n".format(file_name, err))
+        print(
+            "File: \"{0}\" not found.\nExiting with error: \n{1}\n".format(
+                file_name,
+                err)
+        )
         sys.exit()
     return acronyms
 
@@ -22,7 +26,7 @@ def check_input():
     return True
 
 
-def random_acronym(acronyms): 
+def random_acronym(acronyms):
     """
     Outputs random acronym read in from txt file.
     On user keyboard input, meaning of acronym is printed.
@@ -31,7 +35,7 @@ def random_acronym(acronyms):
     while user_input:
         acronym = random.choice(acronyms)
         acronym_and_meaning = acronym.split(" - ")
-        print(acronym_and_meaning[0], end = '')
+        print(acronym_and_meaning[0], end='')
         input("")
         print(acronym)
         user_input = check_input()
@@ -48,8 +52,8 @@ def parse_args():
     return args
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     args = parse_args()
     file_name = args.file_name
     acronyms = input_file(file_name)
-    random_acronym(acronyms) 
+    random_acronym(acronyms)
