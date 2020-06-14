@@ -32,6 +32,7 @@ def random_acronym(acronyms):
     On user keyboard input, meaning of acronym is printed.
     """
     user_input = True
+    print("File has {0} acronyms.".format(len(acronyms)))
     while user_input:
         acronym = random.choice(acronyms)
         acronym_and_meaning = acronym.split(" - ")
